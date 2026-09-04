@@ -25,7 +25,7 @@ dataStr = 2;
 console.log("data =",dataStr)
 console.log("type data ->",typeof dataStr);
 
-// ubah / isi data undifined whatever
+// ubah / isi data undifined 
 dataKosong = 2;
 console.log("data =",dataKosong);
 console.log("data undifined jadi ->",typeof dataKosong)
