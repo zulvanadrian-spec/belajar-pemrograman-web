@@ -10,8 +10,8 @@ document.getElementById("button_merge").onclick = function (){
         let total = Number(harga_satuan) * Number(jumlah);
         let total_format = total.toLocaleString("id-ID");
         
-        document.getElementById("keranjang_anda").innerHTML = 
-        `---KERANJANG ANDA---<br>nama barang : ${nama_barang}<br>harga satuan : Rp.${harga_format}<br>jumlah : ${jumlah}<br>Total Belanja : Rp${total_format}`;
+        document.getElementById("struk_anda").innerHTML = 
+        `---STRUK BELANJA---<br>nama barang : ${nama_barang}<br>harga satuan : Rp.${harga_format}<br>jumlah : ${jumlah}<br>Total Belanja : Rp${total_format}`;
 
 
 }
