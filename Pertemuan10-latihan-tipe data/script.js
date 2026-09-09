@@ -11,5 +11,6 @@ document.getElementById("button_jumlah").onclick = function(){
 
     console.log(`Hasil = ${hasil} tipe-data = ${typeof hasil}`);
 
-    document.getElementById("hasil").textConten = hasil;
+    document.getElementById("hasil").innerHTML =
+    `--- HASIL PENJUMLAHAN ---<br>${angka_1} + ${angka_2} = ${hasil}`;
 };
