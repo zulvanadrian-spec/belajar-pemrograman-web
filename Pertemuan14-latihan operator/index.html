@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 14t</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ay-5">
+            <h1 style="text-align: center;">Pertemuan #14</h1>
+            <h2 style="text-align: center;">Latihan Operator</h2>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <div class="input-group">
+                    <input id="aritmatikaAngka1" type="text"
+                    class="form-control" placeholder="Angka Pertama"
+                    aria-label="Angka Pertama">
+                </div>
+            </div>
+        
+        <div class="col-2">
+            <div class="input">
+                <select id="operatorAritmatika"
+                class="form-select">
+
+                    <option selected>Pilih Operator</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">/</option>
+                    <option value="%">%</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="col-2">
+            <div class="input-group">
+                <input id="aritmatikaAngka2" type="number"
+                class="form-control" placeholder="Angka Kedua"
+                aria-label="Angka Kedua">
+            </div>
+        </div>
+
+        <div class="col-3">
+
+                <button type="button" class="btn
+                btn-primary" id="buttonAritmatika">Hasil Hitung
+                </button>
+
+            <span class="mx-5"
+            id="hasilOperatorAritmatika">Hasil</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
