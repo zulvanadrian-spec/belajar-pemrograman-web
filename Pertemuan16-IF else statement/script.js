@@ -1,32 +1,29 @@
-let faculty = "computer sience".toLowerCase;
-let studyProgram = "informatics".toLowerCase;
+let faculty = "Computer Science";
+let studyProgram = "System Information";
 
+console.log("--- tanpa switch ---");
 
-if (faculty === "Computer Sience".toLowerCase){
+if (studyProgram.toLowerCase() === faculty.toLowerCase() || 
+    studyProgram.toLowerCase() === "system information") {
+    console.log("Program Study :", studyProgram);
     console.log("Boleh Daftar Course!!");
-    
-} else if(studyProgram === "Informatics".toLowerCase){
-    console.log("Boleh Daftar Course!!");
 
-}
- else if(studyProgram === "System Informations".toLowerCase){
+} else if(studyProgram.toLowerCase === "Informatics"){
+    console.log("Study Program :", studyProgram);
     console.log("Boleh Daftar Course!!");
 
 } else {
-    console.log("Tidak diperbolehkan Ikut Course");
+    console.log("Gak match, gak boleh daftar!");
 }
 
 // --- switch case ---
-switch(studyProgram){
-    case "Informatics".toLowerCase:
-        console.log("Boleh Daftar Course!!");
+console.log("--- switch case ---");
+switch(faculty){
+    case "Computer Science":
+        console.log("Asal Fakultas :", faculty)
+        console.log("Boleh Ikut Course!!");
         break;
 
-    case "System Information".toLowerCase:
-        console.log("Boleh Daftar Course!!");
-        break;
-    
     default:
-        console.log("Tidak diperbolehkan Ikut Course");
-
+        console.log("Tidak boleh Ikut Course !!")
 }
