@@ -8,7 +8,7 @@ if (studyProgram.toLowerCase() === faculty.toLowerCase() ||
     console.log("Program Study :", studyProgram);
     console.log("Boleh Daftar Course!!");
 
-} else if(studyProgram.toLowerCase === "Informatics"){
+} else if(studyProgram.toLowerCase() === "Informatics"){
     console.log("Study Program :", studyProgram);
     console.log("Boleh Daftar Course!!");
 
